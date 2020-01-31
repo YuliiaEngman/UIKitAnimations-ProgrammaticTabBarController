@@ -14,6 +14,8 @@
 		0F50331723E47FA8000E50CD /* AnimationsTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F50331623E47FA8000E50CD /* AnimationsTabController.swift */; };
 		0F50331923E4807B000E50CD /* SampleAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F50331823E4807B000E50CD /* SampleAnimationController.swift */; };
 		0F50331B23E480B4000E50CD /* ConstraintsAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F50331A23E480B4000E50CD /* ConstraintsAnimationController.swift */; };
+		0F50331D23E486C6000E50CD /* SampleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F50331C23E486C6000E50CD /* SampleAnimationView.swift */; };
+		0F50331F23E49B5C000E50CD /* ConstraintsAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F50331E23E49B5C000E50CD /* ConstraintsAnimation.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0F50331623E47FA8000E50CD /* AnimationsTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsTabController.swift; sourceTree = "<group>"; };
 		0F50331823E4807B000E50CD /* SampleAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationController.swift; sourceTree = "<group>"; };
 		0F50331A23E480B4000E50CD /* ConstraintsAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsAnimationController.swift; sourceTree = "<group>"; };
+		0F50331C23E486C6000E50CD /* SampleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationView.swift; sourceTree = "<group>"; };
+		0F50331E23E49B5C000E50CD /* ConstraintsAnimation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConstraintsAnimation.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +67,11 @@
 				0F50331623E47FA8000E50CD /* AnimationsTabController.swift */,
 				0F50331823E4807B000E50CD /* SampleAnimationController.swift */,
 				0F50331A23E480B4000E50CD /* ConstraintsAnimationController.swift */,
+				0F50331C23E486C6000E50CD /* SampleAnimationView.swift */,
 				0F50330B23E47E32000E50CD /* Assets.xcassets */,
 				0F50330D23E47E32000E50CD /* LaunchScreen.storyboard */,
 				0F50331023E47E32000E50CD /* Info.plist */,
+				0F50331E23E49B5C000E50CD /* ConstraintsAnimation.storyboard */,
 			);
 			path = "UIKitAnimations+ProgrammaticTabBarController";
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			files = (
 				0F50330F23E47E32000E50CD /* LaunchScreen.storyboard in Resources */,
 				0F50330C23E47E32000E50CD /* Assets.xcassets in Resources */,
+				0F50331F23E49B5C000E50CD /* ConstraintsAnimation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F50331923E4807B000E50CD /* SampleAnimationController.swift in Sources */,
+				0F50331D23E486C6000E50CD /* SampleAnimationView.swift in Sources */,
 				0F50330323E47E2D000E50CD /* AppDelegate.swift in Sources */,
 				0F50331723E47FA8000E50CD /* AnimationsTabController.swift in Sources */,
 				0F50330523E47E2D000E50CD /* SceneDelegate.swift in Sources */,
